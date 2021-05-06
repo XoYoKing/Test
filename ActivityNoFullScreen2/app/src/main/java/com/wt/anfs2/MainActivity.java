@@ -1,4 +1,4 @@
-package com.wt.anfs;
+package com.wt.anfs2;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -14,11 +14,6 @@ import android.widget.RelativeLayout;
 //am start com.wt.anfs/.MainActivityTR
 //am start com.wt.anfs/.MainActivityBL
 //am start com.wt.anfs/.MainActivityBR
-//am start com.wt.anfs2/.MainActivity
-//am start com.wt.anfs2/.MainActivityTL
-//am start com.wt.anfs2/.MainActivityTR
-//am start com.wt.anfs2/.MainActivityBL
-//am start com.wt.anfs2/.MainActivityBR
 //input keyevent 4
 
 public class MainActivity extends Activity {
@@ -41,7 +36,7 @@ public class MainActivity extends Activity {
 //        layoutParams.addRule(RelativeLayout.ALIGN_PARENT_RIGHT);
 //        layoutParams.addRule(RelativeLayout.CENTER_IN_PARENT);
         layoutParams.addRule(RelativeLayout.CENTER_VERTICAL);
-        layoutParams.addRule(RelativeLayout.ALIGN_PARENT_LEFT);
+        layoutParams.addRule(RelativeLayout.ALIGN_PARENT_RIGHT);
         mContentLayout.setLayoutParams(layoutParams);
     }
 }

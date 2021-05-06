@@ -11,19 +11,19 @@
         android:id="@+id/layout_content"
         android:layout_width="160dp"
         android:layout_height="80dp"
-        android:layout_margin="10dp"
+        android:layout_margin="170dp"
         android:padding="5dp"
         android:background="@android:color/black">
-        <com.wt.anfs.CustomSurfaceView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="SurfaceView 1-1" />
         <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="1-1" />
+            android:text="2-1" />
+        <com.wt.anfs2.CustomSurfaceView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="SurfaceView 2-1" />
 
     </LinearLayout>
 
